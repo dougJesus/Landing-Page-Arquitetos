@@ -25,3 +25,29 @@ header{
         font-size: 20px;
         color: #FFFFFF;
     }
+section ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+    padding-bottom: 140px;
+    padding-left: 80px;
+    padding-right: 60px;
+    background-color:#F9F9F9;
+}
+    section ul li h2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 1px;
+        color: #000000;
+    }
+    section ul li p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1px;
+        color: #000000;
+    }
