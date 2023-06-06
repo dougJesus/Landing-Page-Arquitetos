@@ -141,4 +141,5 @@ button{
     font-size: 30px;
     line-height: 30px;
     color: #FFFFFF;
+    cursor: pointer ;
 }

@@ -52,11 +52,12 @@
     <!--Parte do rodapé do site-->
     <footer>
         <h2>Conheça mais sobre nossos serviços:</h2>
-        <form>
+        <form action="https://api.sheetmonkey.io/form/72xx2xeh3sZWtqdFwHxG1t" method="POST">
             <div id="fo-1">
-                <input type="text" placeholder="Nome"><br><br>
-                <input type="email" placeholder="Email"><br><br><br><br>
-                <button>Fale Conosco</button>
+                <input type="text" placeholder="Nome" name="Name" required><br><br>
+                <input type="email" placeholder="Email" name="Email" required ><br><br><br><br>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <button type="submit">Fale Conosco</button>
                 <br><br>
             </div>
         </form>
